@@ -33,6 +33,7 @@ word = input("Enter the word you want to search : \n")
 output = translate(word)
 if type(output) == list:
     for item in output:
+        print("meaning : ")
         print(item)
 else:
     print(output)
